@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.Card{
+  width: 20%;
+  border-radius: 20px;
+  background-color: darkblue;
+  padding: 5px;
+}
